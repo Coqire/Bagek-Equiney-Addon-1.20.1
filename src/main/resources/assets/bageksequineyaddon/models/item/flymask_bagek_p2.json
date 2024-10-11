@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/halters/flymask_bagek_p2"
+  }
+}

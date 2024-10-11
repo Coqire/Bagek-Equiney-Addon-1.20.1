@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/girth_straps/english_girth_strap_bagek_c1"
+  }
+}

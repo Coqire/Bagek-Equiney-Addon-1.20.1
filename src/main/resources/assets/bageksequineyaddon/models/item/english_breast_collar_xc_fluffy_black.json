@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/breast_collars/english_breast_collar_xc_fluffy_black"
+  }
+}

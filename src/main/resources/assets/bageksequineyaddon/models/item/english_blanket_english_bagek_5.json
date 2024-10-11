@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/blankets/english_blanket_english_bagek_5"
+  }
+}

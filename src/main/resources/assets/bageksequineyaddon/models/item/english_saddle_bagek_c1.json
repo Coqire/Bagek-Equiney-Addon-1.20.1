@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/saddles/english_saddle_bagek_c1"
+  }
+}

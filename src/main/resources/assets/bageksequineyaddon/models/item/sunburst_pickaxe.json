@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/weapons/sunburst/sunburst_pickaxe"
+  }
+}

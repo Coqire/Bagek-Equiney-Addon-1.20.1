@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/leg_wraps/english_leg_wraps_tendon_bagek_f8"
+  }
+}

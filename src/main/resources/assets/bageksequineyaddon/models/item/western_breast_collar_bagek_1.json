@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/breast_collars/western_breast_collar_bagek_1"
+  }
+}

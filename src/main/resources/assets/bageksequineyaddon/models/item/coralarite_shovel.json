@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/weapons/coralarite/coralarite_shovel"
+  }
+}
