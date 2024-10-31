@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_leg_wraps",
+  "pattern": [
+    "w z",
+    "y y",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:white_carpet"
+    },
+    "y": {
+      "item": "bageksequineyaddon:equium"
+    },
+    "z": {
+      "item": "minecraft:white_dye"
+    },
+    "w": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_leg_wraps_tendon_bagek_fp2"
+  }
+}

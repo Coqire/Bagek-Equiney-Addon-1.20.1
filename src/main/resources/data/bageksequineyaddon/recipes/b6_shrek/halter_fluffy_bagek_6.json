@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "halter",
+  "pattern": [
+    "xvx",
+    " x ",
+    "y z"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:white_carpet"
+    },
+    "y": {
+      "item": "minecraft:lime_dye"
+    },
+    "z": {
+      "item": "minecraft:green_dye"
+    },
+    "v": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:halter_fluffy_bagek_6"
+  }
+}

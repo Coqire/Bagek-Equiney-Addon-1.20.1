@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_bridle",
+  "pattern": [
+    "A  ",
+    "z  ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "bageksequineyaddon:english_bridle_xc_black"
+    },
+    "z": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_bridle_xc_bagek_15"
+  }
+}

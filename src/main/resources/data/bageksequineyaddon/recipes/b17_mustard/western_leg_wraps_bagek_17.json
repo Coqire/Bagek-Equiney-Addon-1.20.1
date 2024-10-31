@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "western_leg_wraps",
+  "pattern": [
+    "y y",
+    "x x",
+    "w z"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:white_carpet"
+    },
+    "y": {
+      "item": "bageksequineyaddon:coralarite"
+    },
+    "z": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "w": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:western_leg_wraps_bagek_17"
+  }
+}

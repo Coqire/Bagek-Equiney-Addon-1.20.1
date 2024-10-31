@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_bridle",
+  "pattern": [
+    "x  ",
+    "zbx",
+    "y x"
+  ],
+  "key": {
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "y": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "z": {
+      "item": "minecraft:black_dye"
+    },
+    "b": {
+      "item": "bageksequineyaddon:coralarite"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_bridle_bagek_black"
+  }
+}

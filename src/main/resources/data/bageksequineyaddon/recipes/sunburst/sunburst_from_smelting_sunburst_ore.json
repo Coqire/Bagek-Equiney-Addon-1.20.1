@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bageksequineyaddon:sunburst_ore"
+  },
+  "result": "bageksequineyaddon:sunburst",
+  "experience": 0.7,
+  "cookingtime": 200
+}

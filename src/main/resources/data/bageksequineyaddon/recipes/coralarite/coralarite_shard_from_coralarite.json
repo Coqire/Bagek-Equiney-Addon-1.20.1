@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bageksequineyaddon:coralarite"
+    }
+  ],
+  "result": {
+    "item": "bageksequineyaddon:coralarite_shard",
+    "count": 9
+  }
+}

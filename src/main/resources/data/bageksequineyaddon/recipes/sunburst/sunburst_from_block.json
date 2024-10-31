@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bageksequineyaddon:sunburst_block"
+    }
+  ],
+  "result": {
+    "item": "bageksequineyaddon:sunburst",
+    "count": 9
+  }
+}

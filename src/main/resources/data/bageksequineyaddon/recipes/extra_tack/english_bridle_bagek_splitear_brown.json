@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_bridle",
+  "pattern": [
+    "x  ",
+    "b  ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "swem:english_bridle_brown"
+    },
+    "b": {
+      "item": "bageksequineyaddon:coralarite"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_bridle_bagek_splitear_brown"
+  }
+}

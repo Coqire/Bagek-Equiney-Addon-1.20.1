@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bageksequineyaddon:equium"
+    }
+  ],
+  "result": {
+    "item": "bageksequineyaddon:equium_shard",
+    "count": 9
+  }
+}

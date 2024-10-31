@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "halter",
+  "pattern": [
+    "ABC",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "swem:halter_black"
+    },
+    "B": {
+      "item": "minecraft:white_carpet"
+    },
+    "C": {
+      "item": "bageksequineyaddon:coralarite"
+    }
+  },
+    "result": {
+      "item": "bageksequineyaddon:halter_fluffy_bagek_black"
+    }
+  }

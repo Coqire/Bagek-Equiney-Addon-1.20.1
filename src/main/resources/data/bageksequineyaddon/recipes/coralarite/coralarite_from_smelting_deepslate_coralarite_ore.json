@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bageksequineyaddon:deepslate_coralarite_ore"
+  },
+  "result": "bageksequineyaddon:coralarite",
+  "experience": 0.7,
+  "cookingtime": 200
+}

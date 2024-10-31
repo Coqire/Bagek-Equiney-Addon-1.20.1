@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_girth_strap",
+  "pattern": [
+    "x x",
+    "byz",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:nuggets/iron"
+    },
+    "y": {
+      "item": "minecraft:black_dye"
+    },
+    "z": {
+      "tag": "swem:refined_leather"
+    },
+    "b": {
+      "item": "bageksequineyaddon:coralarite"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_girth_strap_bagek_black"
+  }
+}

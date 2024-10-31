@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "ABC"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_dye"
+    },
+    "A": {
+      "tag": "forge:crops/carrot"
+    },
+    "B": {
+      "tag": "forge:crops/wheat"
+    },
+    "C": {
+      "item": "swem:sugar_cube"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:yellow_donut_treat"
+  }
+}

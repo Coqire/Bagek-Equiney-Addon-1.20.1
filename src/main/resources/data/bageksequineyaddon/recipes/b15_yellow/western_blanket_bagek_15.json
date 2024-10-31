@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "western_blanket",
+  "pattern": [
+    " db",
+    "xyc",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:white_carpet"
+    },
+    "y": {
+      "tag": "swem:refined_leather"
+    },
+    "c": {
+      "item": "bageksequineyaddon:coralarite"
+    },
+    "d": {
+      "item": "minecraft:white_dye"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:western_blanket_bagek_15"
+  }
+}

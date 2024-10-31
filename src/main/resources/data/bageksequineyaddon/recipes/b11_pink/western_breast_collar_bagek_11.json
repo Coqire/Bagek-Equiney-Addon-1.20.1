@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "western_breast_collar",
+  "pattern": [
+    "w x",
+    " v ",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:pink_carpet"
+    },
+    "y": {
+      "tag": "swem:refined_leather"
+    },
+    "w": {
+      "item": "minecraft:pink_carpet"
+    },
+    "v": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:western_breast_collar_bagek_11"
+  }
+}

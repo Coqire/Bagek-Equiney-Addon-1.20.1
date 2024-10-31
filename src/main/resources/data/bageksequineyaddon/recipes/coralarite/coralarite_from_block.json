@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bageksequineyaddon:coralarite_block"
+    }
+  ],
+  "result": {
+    "item": "bageksequineyaddon:coralarite",
+    "count": 9
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_breast_collar",
+  "pattern": [
+    "x x",
+    "b a",
+    " c "
+  ],
+  "key": {
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "a": {
+      "item": "minecraft:black_dye"
+    },
+    "b": {
+      "item": "bageksequineyaddon:coralarite"
+    },
+    "c": {
+      "item": "minecraft:white_carpet"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_breast_collar_xc_fluffy_black"
+  }
+}

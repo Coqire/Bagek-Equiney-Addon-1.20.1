@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "halter",
+  "pattern": [
+    "x y",
+    " xB",
+    "xCx"
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:string"
+    },
+    "x": {
+      "tag": "swem:refined_leather"
+    },
+    "B": {
+      "item": "minecraft:orange_dye"
+    },
+    "C": {
+      "item": "bageksequineyaddon:coralarite"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:flymask_bagek_13"
+  }
+}

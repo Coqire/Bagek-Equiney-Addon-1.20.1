@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "quarter_sheet",
+  "pattern": [
+    "#D#",
+    " ##",
+    "ACB"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:wool"
+    },
+    "A": {
+      "item": "minecraft:yellow_dye"
+    },
+    "B": {
+      "item": "minecraft:white_dye"
+    },
+    "C": {
+      "item": "bageksequineyaddon:coralarite"
+    },
+    "D": {
+      "item": "minecraft:string"
+    }
+
+  },
+  "result": {
+    "item": "bageksequineyaddon:quartersheet_bagek_p2"
+  }
+}

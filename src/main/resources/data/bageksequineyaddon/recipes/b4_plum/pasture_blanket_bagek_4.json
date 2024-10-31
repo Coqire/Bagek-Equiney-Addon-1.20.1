@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pasture_blanket",
+  "pattern": [
+    " ##",
+    "###",
+    "bxa"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_carpet"
+    },
+    "x": {
+      "item": "bageksequineyaddon:coralarite"
+    },
+    "a": {
+      "item": "minecraft:gray_dye"
+    },
+    "b": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:pasture_blanket_bagek_4"
+  }
+}

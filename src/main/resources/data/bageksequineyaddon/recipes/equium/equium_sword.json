@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "item": "bageksequineyaddon:equium"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:equium_sword"
+  }
+}

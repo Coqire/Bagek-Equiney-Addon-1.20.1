@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_breast_collar",
+  "pattern": [
+    "A  ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "swem:english_breast_collar_black"
+    },
+    "B": {
+      "item": "bageksequineyaddon:coralarite"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_breast_collar_english_bagek_fivepoint_black"
+  }
+}

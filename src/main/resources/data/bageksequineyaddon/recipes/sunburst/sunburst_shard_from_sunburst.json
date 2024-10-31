@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bageksequineyaddon:sunburst"
+    }
+  ],
+  "result": {
+    "item": "bageksequineyaddon:sunburst_shard",
+    "count": 9
+  }
+}

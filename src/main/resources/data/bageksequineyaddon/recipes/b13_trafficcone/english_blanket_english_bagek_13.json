@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "english_blanket",
+  "pattern": [
+    " db",
+    "xyc",
+    "xx "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:white_carpet"
+    },
+    "y": {
+      "tag": "swem:refined_leather"
+    },
+    "c": {
+      "item": "bageksequineyaddon:coralarite"
+    },
+    "d": {
+      "item": "minecraft:orange_dye"
+    },
+    "b": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_blanket_english_bagek_13"
+  }
+}
