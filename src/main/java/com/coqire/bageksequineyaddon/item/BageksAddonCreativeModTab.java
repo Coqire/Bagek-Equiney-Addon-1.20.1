@@ -33,6 +33,17 @@ public class BageksAddonCreativeModTab {
                     pOutput.accept(ModItems.BLUE_DONUT_TREAT.get());
                     pOutput.accept(ModItems.PINK_DONUT_TREAT.get());
                     pOutput.accept(ModItems.YELLOW_DONUT_TREAT.get());
+                    pOutput.accept(ModItems.SUNBURST.get());
+                    pOutput.accept(ModItems.SUNBURST_SHARD.get());
+                    pOutput.accept(ModItems.raw_sunburst.get());
+                    pOutput.accept(ModItems.equium.get());
+                    pOutput.accept(ModItems.equium_shard.get());
+                    pOutput.accept(ModItems.raw_equium.get());
+                    pOutput.accept(ModItems.coralarite.get());
+                    pOutput.accept(ModItems.coralarite_shard.get());
+                    pOutput.accept(ModItems.raw_coralarite.get());
+                    
+                    
 
                 })).withSearchBar().build());
     }
