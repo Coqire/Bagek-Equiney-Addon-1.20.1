@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "bageksequineyaddon:sunburst_ore",
+    "bageksequineyaddon:deepslate_sunburst_ore",
+    "bageksequineyaddon:sunburst_block",
+    "bageksequineyaddon:coralarite_ore",
+    "bageksequineyaddon:deepslate_coralarite_ore",
+    "bageksequineyaddon:coralarite_block",
+    "bageksequineyaddon:equium_ore",
+    "bageksequineyaddon:deepslate_equium_ore",
+    "bageksequineyaddon:equium_block"
+  ]
+}

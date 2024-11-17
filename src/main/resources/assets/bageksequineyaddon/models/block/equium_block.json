@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bageksequineyaddon:block/equium_block"
+  }
+}
