@@ -42,8 +42,6 @@ public class ModPlacedFeatures {
     }
 
 
-
-
     private static ResourceKey<PlacedFeature> registerKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(BageksEquineyAddon.MOD_ID, name));
     }
