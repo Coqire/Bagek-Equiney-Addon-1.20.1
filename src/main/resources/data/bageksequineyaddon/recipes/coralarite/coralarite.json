@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#yx",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_dye"
+    },
+    "y": {
+      "item": "bageksequineyaddon:baguette"
+    },
+    "x": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:coralarite"
+  }
+}
