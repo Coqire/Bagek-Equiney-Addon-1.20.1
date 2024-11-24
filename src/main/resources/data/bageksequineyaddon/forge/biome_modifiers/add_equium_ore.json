@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
+  "features": ["bageksequineyaddon:equium_ore_placed"],
   "biomes": "#minecraft:is_overworld",
-  "features": "bageksequineyaddon:equium_ore_placed",
   "step": "underground_ores"
 }
