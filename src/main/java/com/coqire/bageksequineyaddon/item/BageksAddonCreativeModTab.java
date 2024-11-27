@@ -1,5 +1,6 @@
 package com.coqire.bageksequineyaddon.item;
 
+import com.coqire.bageksequineyaddon.block.ModBlocks;
 import com.coqire.bageksequineyaddon.registry.BageksTack;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -42,6 +43,15 @@ public class BageksAddonCreativeModTab {
                     pOutput.accept(ModItems.coralarite.get());
                     pOutput.accept(ModItems.coralarite_shard.get());
                     pOutput.accept(ModItems.raw_coralarite.get());
+                            pOutput.accept(ModBlocks.SUNBURST_BLOCK.get());
+                            pOutput.accept(ModBlocks.SUNBURST_ORE.get());
+                            pOutput.accept(ModBlocks.DEEPSLATE_SUNBURST_ORE.get());
+                            pOutput.accept(ModBlocks.EQUIUM_BLOCK.get());
+                            pOutput.accept(ModBlocks.EQUIUM_ORE.get());
+                            pOutput.accept(ModBlocks.DEEPSLATE_EQUIUM_ORE.get());
+                            pOutput.accept(ModBlocks.CORALARITE_BLOCK.get());
+                            pOutput.accept(ModBlocks.CORALARITE_ORE.get());
+                            pOutput.accept(ModBlocks.DEEPSLATE_CORALARITE_ORE.get());
                     
                     
 
