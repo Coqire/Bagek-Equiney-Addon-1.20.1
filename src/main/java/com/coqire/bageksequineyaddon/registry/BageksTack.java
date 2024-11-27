@@ -223,11 +223,11 @@ public class BageksTack {
                         (new Item.Properties().stacksTo(64))
                 ));
         HALTER_FLUFFY_BLACK = REGISTRY.register("halter_fluffy_black", () ->
-                new HalterItem("halter_fluffy_black",
+                new HalterItem("halter_fluffy_bagek_black",
                         (new Item.Properties().stacksTo(64))
                 ));
         HALTER_FLUFFY_BROWN = REGISTRY.register("halter_fluffy_brown", () ->
-                new HalterItem("halter_fluffy_brown",
+                new HalterItem("halter_fluffy_bagek_brown",
                         (new Item.Properties().stacksTo(64))
                 ));
         //ENGLISH_BREAST_COLLAR_ = REGISTRY.register("english_breast_collar_", () ->
