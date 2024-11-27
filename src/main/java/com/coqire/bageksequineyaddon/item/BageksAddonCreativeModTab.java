@@ -1,7 +1,7 @@
 package com.coqire.bageksequineyaddon.item;
 
 import com.coqire.bageksequineyaddon.block.ModBlocks;
-import com.coqire.bageksequineyaddon.registry.BageksTack;
+import com.coqire.bageksequineyaddon.registry.BagekTack;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -26,7 +26,7 @@ public class BageksAddonCreativeModTab {
         MAIN = REGISTRY.register("bageks_tab", () -> CreativeModeTab.builder().title(Component.translatable("creativetab.bageks_tab")).icon(() -> new ItemStack(ModItems.BAGUETTE.get()))
                 .displayItems((pParameters, pOutput) ->
 
-                        BageksTack.REGISTRY.getEntries().forEach((registeredItem) -> {
+                        BagekTack.REGISTRY.getEntries().forEach((registeredItem) -> {
                     Item item = registeredItem.get();
                     pOutput.accept(item);
 
