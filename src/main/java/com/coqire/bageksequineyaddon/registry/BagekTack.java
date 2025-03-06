@@ -3,6 +3,7 @@ package com.coqire.bageksequineyaddon.registry;
 import com.alaharranhonor.swem.forge.ModRef;
 import com.alaharranhonor.swem.forge.community.RackType;
 import com.alaharranhonor.swem.forge.community.TackType;
+import com.alaharranhonor.swem.forge.community.content.tack.type.GirthStrapTypeData;
 import com.alaharranhonor.swem.forge.community.content.tack.type.TackTypeData;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.alaharranhonor.swem.forge.tack.TackItemDefinition;
@@ -438,83 +439,206 @@ public class BagekTack {
 
 //GIRTH STRAPS
         ENGLISH_GIRTH_STRAP_ANATOMIC_BLACK = REGISTRY.register("english_girth_strap_anatomic_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_anatomic_black.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE)))
+                        .build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_ANATOMIC_FLUFFY_BLACK = REGISTRY.register("english_girth_strap_anatomic_fluffy_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_anatomic_fluffy_black.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE)))
+                        .build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_FLUFFY_BLACK = REGISTRY.register("english_girth_strap_fluffy_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_fluffy_black.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_XC_BLACK = REGISTRY.register("english_girth_strap_xc_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_xc_black.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_XC_FLUFFY_BLACK = REGISTRY.register("english_girth_strap_xc_fluffy_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_xc_fluffy_black.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_ANATOMIC_BROWN = REGISTRY.register("english_girth_strap_anatomic_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_anatomic_brown.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_ANATOMIC_FLUFFY_BROWN = REGISTRY.register("english_girth_strap_anatomic_fluffy_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_anatomic_fluffy_brown.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_FLUFFY_BROWN = REGISTRY.register("english_girth_strap_fluffy_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_fluffy_brown.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_XC_BROWN = REGISTRY.register("english_girth_strap_xc_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_xc_brown.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_XC_FLUFFY_BROWN = REGISTRY.register("english_girth_strap_xc_fluffy_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_xc_fluffy_brown.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_BLACK = REGISTRY.register("english_girth_strap_bagek_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_black.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         WESTERN_GIRTH_STRAP_BAGEK_BROWN = REGISTRY.register("western_girth_strap_bagek_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/western_girth_strap_bagek_brown.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE)))
+                        .build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_C1 = REGISTRY.register("english_girth_strap_bagek_c1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c1.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_C2 = REGISTRY.register("english_girth_strap_bagek_c2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c2.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_C3 = REGISTRY.register("english_girth_strap_bagek_c3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c3.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_C4 = REGISTRY.register("english_girth_strap_bagek_c4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c4.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_FC1 = REGISTRY.register("english_girth_strap_bagek_fc1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc1.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_FC2 = REGISTRY.register("english_girth_strap_bagek_fc2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc2.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_FC3 = REGISTRY.register("english_girth_strap_bagek_fc3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc3.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_GIRTH_STRAP_BAGEK_FC4 = REGISTRY.register("english_girth_strap_bagek_fc4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP).build(),
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc4.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
 
@@ -588,7 +712,14 @@ public class BagekTack {
         for(int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BLANKET_BAGEK.add(REGISTRY.register("english_blanket_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/xc/english_blanket_bagek_" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/xc/english_blanket_bagek_" + counter + ".png"))
+                            .withData(new TackTypeData(false, Collections.emptySet(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE)))
+                            .build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -613,7 +744,13 @@ public class BagekTack {
         for(int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             WESTERN_BLANKET_BAGEK.add(REGISTRY.register("western_blanket_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/western/western_blanket_bagek_" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/western/western_blanket_bagek_" + counter + ".png"))
+                            .withData(new TackTypeData(false, Collections.emptySet(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -768,7 +905,13 @@ public class BagekTack {
         for (int var1 = 0; var1 < 7; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BLANKET_PASTEL_BAGEK.add(REGISTRY.register("english_blanket_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/xc/english_blanket_bagek_p" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/xc/english_blankek_bagek_p" + counter + ".png"))
+                            .withData(new TackTypeData(false, Collections.emptySet(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -837,7 +980,13 @@ public class BagekTack {
         for (int var1 = 0; var1 < 7; ++var1) {
             int counter = var1 + 1;
             WESTERN_BLANKET_PASTEL_BAGEK.add(REGISTRY.register("western_blanket_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/western/western_blanket_bagek_p" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/western/western_blanket_bagek_p" + counter + ".png"))
+                            .withData(new TackTypeData(false, Collections.emptySet(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
