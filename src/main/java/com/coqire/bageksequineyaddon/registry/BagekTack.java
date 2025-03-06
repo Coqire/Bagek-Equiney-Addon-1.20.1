@@ -1,8 +1,13 @@
 package com.coqire.bageksequineyaddon.registry;
 
+import com.alaharranhonor.swem.forge.ModRef;
+import com.alaharranhonor.swem.forge.community.RackType;
 import com.alaharranhonor.swem.forge.community.TackType;
+import com.alaharranhonor.swem.forge.community.content.tack.type.TackTypeData;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.alaharranhonor.swem.forge.tack.TackItemDefinition;
+import com.alaharranhonor.swem.forge.util.ColorUtil;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -10,6 +15,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class BagekTack {
@@ -591,7 +597,14 @@ public class BagekTack {
         for(int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BLANKET_ENGLISH_BAGEK.add(REGISTRY.register("english_blanket_english_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/english/english_blanket_english_bagek_" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/english/english_blanket_english_bagek_" + counter + ".png"))
+                            .withData(new TackTypeData(false, Collections.emptySet(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE)))
+                            .build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -764,7 +777,12 @@ public class BagekTack {
         for (int var1 = 0; var1 < 7; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BLANKET_ENGLISH_PASTEL_BAGEK.add(REGISTRY.register("english_blanket_english_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
+                            .rackTexture(RackType.SADDLE, ModRef.res
+                                    ("textures/entity/rack/saddle/english/english_blanket_english_bagek_p" + counter + ".png"))
+                            .rackTexture(RackType.BLANKET_5, ModRef.res
+                                    ("textures/entity/rack/blanket_5/english/english_blanket_english_bagek_p" + counter + ".png"))
+                            .build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
