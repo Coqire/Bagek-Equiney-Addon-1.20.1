@@ -4,6 +4,7 @@ import com.alaharranhonor.swem.forge.ModRef;
 import com.alaharranhonor.swem.forge.community.RackType;
 import com.alaharranhonor.swem.forge.community.TackType;
 import com.alaharranhonor.swem.forge.community.content.tack.type.GirthStrapTypeData;
+import com.alaharranhonor.swem.forge.community.content.tack.type.PastureBlanketTypeData;
 import com.alaharranhonor.swem.forge.community.content.tack.type.TackTypeData;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.alaharranhonor.swem.forge.tack.TackItemDefinition;
@@ -374,34 +375,83 @@ public class BagekTack {
                 ));
 
         //Plaid + zebra rug
-         PASTURE_BLANKET_ZEBRA_BAGEK = REGISTRY.register("pasture_blanket_zebra_bagek", () ->
-                        new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(),
-                                (new Item.Properties().stacksTo(64))
-                        ));
-                PASTURE_BLANKET_PATTERNED1 = REGISTRY.register("pasture_blanket_patterned1", () ->
-                        new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(),
-                                (new Item.Properties().stacksTo(64))
-                        ));
-                PASTURE_BLANKET_PATTERNED2 = REGISTRY.register("pasture_blanket_patterned2", () ->
-                        new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(),
-                                (new Item.Properties().stacksTo(64))
-                        ));
-                PASTURE_BLANKET_PATTERNED3 = REGISTRY.register("pasture_blanket_patterned3", () ->
-                        new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(),
-                                (new Item.Properties().stacksTo(64))
-                        ));
-                PASTURE_BLANKET_PATTERNED4 = REGISTRY.register("pasture_blanket_patterned4", () ->
-                        new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(),
-                                (new Item.Properties().stacksTo(64))
-                        ));
-                PASTURE_BLANKET_PATTERNED5 = REGISTRY.register("pasture_blanket_patterned5", () ->
-                        new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(),
-                                (new Item.Properties().stacksTo(64))
-                        ));
-                PASTURE_BLANKET_PATTERNED6 = REGISTRY.register("pasture_blanket_patterned6", () ->
-                        new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(),
-                                (new Item.Properties().stacksTo(64))
-                        ));
+        PASTURE_BLANKET_ZEBRA_BAGEK = REGISTRY.register("pasture_blanket_zebra_bagek", () ->
+                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                        .withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_zebra.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_zebra.png")).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+        PASTURE_BLANKET_PATTERNED1 = REGISTRY.register("pasture_blanket_patterned1", () ->
+                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                        .withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_1.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_.1png")).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+        PASTURE_BLANKET_PATTERNED2 = REGISTRY.register("pasture_blanket_patterned2", () ->
+                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                        .withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_2.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_2.png")).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+        PASTURE_BLANKET_PATTERNED3 = REGISTRY.register("pasture_blanket_patterned3", () ->
+                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                        .withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_3.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_3.png")).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+        PASTURE_BLANKET_PATTERNED4 = REGISTRY.register("pasture_blanket_patterned4", () ->
+                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                        .withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_4.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_4.png")).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+        PASTURE_BLANKET_PATTERNED5 = REGISTRY.register("pasture_blanket_patterned5", () ->
+                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                        .withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_5.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_5.png")).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+        PASTURE_BLANKET_PATTERNED6 = REGISTRY.register("pasture_blanket_patterned6", () ->
+                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                        .withData(
+                                new PastureBlanketTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
+                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_6.png"))
+                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_6.png")).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
 
         //SADDLES
         ENGLISH_SADDLE_XC_BLACK = REGISTRY.register("english_saddle_xc_black", () ->
@@ -676,7 +726,14 @@ public class BagekTack {
         for (int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             PASTURE_BLANKET_BAGEK_FLYSHEET.add(REGISTRY.register("pasture_blanket_bagek_flysheet_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_flysheet_" + counter + ".png"))
+                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_flysheet_" + counter + ".png"))
+                            .withData(
+                                    new PastureBlanketTypeData(false, Collections.emptySet(),
+                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false)).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -685,7 +742,14 @@ public class BagekTack {
         for(int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             PASTURE_BLANKET_BAGEK.add(REGISTRY.register("pasture_blanket_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_." + counter + ".png"))
+                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_" + counter + ".png"))
+                            .withData(
+                                    new PastureBlanketTypeData(false, Collections.emptySet(),
+                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false)).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -869,7 +933,14 @@ public class BagekTack {
         for (int var1 = 0; var1 < 7; ++var1) {
             int counter = var1 + 1;
             PASTURE_BLANKET_BAGEK_FLYSHEET_PASTEL.add(REGISTRY.register("pasture_blanket_bagek_flysheet_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_flysheet_p" + counter + ".png"))
+                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_flysheet_p" + counter + ".png"))
+                            .withData(
+                                    new PastureBlanketTypeData(false, Collections.emptySet(),
+                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false)).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -878,7 +949,14 @@ public class BagekTack {
         for (int var1 = 0; var1 < 7; ++var1) {
             int counter = var1 + 1;
             PASTURE_BLANKET_PASTEL_BAGEK.add(REGISTRY.register("pasture_blanket_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_p" + counter + ".png"))
+                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_p" + counter + ".png"))
+                            .withData(
+                                    new PastureBlanketTypeData(false, Collections.emptySet(),
+                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false)).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -909,7 +987,7 @@ public class BagekTack {
                             .rackTexture(RackType.SADDLE, ModRef.res
                                     ("textures/entity/rack/saddle/xc/english_blanket_bagek_p" + counter + ".png"))
                             .rackTexture(RackType.BLANKET_5, ModRef.res
-                                    ("textures/entity/rack/blanket_5/xc/english_blankek_bagek_p" + counter + ".png"))
+                                    ("textures/entity/rack/blanket_5/xc/english_blanket_bagek_p" + counter + ".png"))
                             .withData(new TackTypeData(false, Collections.emptySet(),
                                     ColorUtil.ofDyeColor(DyeColor.WHITE))).build(), (new Item.Properties())
                             .stacksTo(64))
@@ -925,6 +1003,8 @@ public class BagekTack {
                                     ("textures/entity/rack/saddle/english/english_blanket_english_bagek_p" + counter + ".png"))
                             .rackTexture(RackType.BLANKET_5, ModRef.res
                                     ("textures/entity/rack/blanket_5/english/english_blanket_english_bagek_p" + counter + ".png"))
+                            .withData(new TackTypeData(false, Collections.emptySet(),
+                                    ColorUtil.ofDyeColor(DyeColor.WHITE)))
                             .build(), (new Item.Properties())
                             .stacksTo(64))
             ));
