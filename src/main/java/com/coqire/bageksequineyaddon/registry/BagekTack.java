@@ -3,9 +3,7 @@ package com.coqire.bageksequineyaddon.registry;
 import com.alaharranhonor.swem.forge.ModRef;
 import com.alaharranhonor.swem.forge.community.RackType;
 import com.alaharranhonor.swem.forge.community.TackType;
-import com.alaharranhonor.swem.forge.community.content.tack.type.GirthStrapTypeData;
-import com.alaharranhonor.swem.forge.community.content.tack.type.PastureBlanketTypeData;
-import com.alaharranhonor.swem.forge.community.content.tack.type.TackTypeData;
+import com.alaharranhonor.swem.forge.community.content.tack.type.*;
 import com.alaharranhonor.swem.forge.items.tack.*;
 import com.alaharranhonor.swem.forge.tack.TackItemDefinition;
 import com.alaharranhonor.swem.forge.util.ColorUtil;
@@ -455,35 +453,43 @@ public class BagekTack {
 
         //SADDLES
         ENGLISH_SADDLE_XC_BLACK = REGISTRY.register("english_saddle_xc_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_SADDLE_XC_BROWN = REGISTRY.register("english_saddle_xc_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_SADDLE_BAGEK_BLACK = REGISTRY.register("english_saddle_bagek_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         WESTERN_SADDLE_BAGEK_BROWN = REGISTRY.register("western_saddle_bagek_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "western")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_SADDLE_BAGEK_C1 = REGISTRY.register("english_saddle_bagek_c1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_SADDLE_BAGEK_C2 = REGISTRY.register("english_saddle_bagek_c2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_SADDLE_BAGEK_C3 = REGISTRY.register("english_saddle_bagek_c3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_SADDLE_BAGEK_C4 = REGISTRY.register("english_saddle_bagek_c4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
 
@@ -744,7 +750,7 @@ public class BagekTack {
             PASTURE_BLANKET_BAGEK.add(REGISTRY.register("pasture_blanket_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
                             .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_." + counter + ".png"))
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_" + counter + ".png"))
                             .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
                                     ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_" + counter + ".png"))
                             .withData(
@@ -758,7 +764,8 @@ public class BagekTack {
         for (int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             ENGLISH_SADDLE_XC_BAGEK.add(REGISTRY.register("english_saddle_xc_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                            .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -767,7 +774,8 @@ public class BagekTack {
         for (int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BRIDLE_XC_BAGEK.add(REGISTRY.register("english_bridle_xc_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                            .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -965,7 +973,8 @@ public class BagekTack {
         for (int var1 = 0; var1 < 7; ++var1) {
             int counter = var1 + 1;
             ENGLISH_SADDLE_XC_BAGEK_PASTEL.add(REGISTRY.register("english_saddle_xc_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.SADDLE).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.SADDLE)
+                            .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
@@ -974,7 +983,8 @@ public class BagekTack {
         for (int var1 = 0; var1 < 7; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BRIDLE_XC_BAGEK_PASTEL.add(REGISTRY.register("english_bridle_xc_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(), (new Item.Properties())
+                    new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                            .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
