@@ -392,7 +392,7 @@ public class BagekTack {
                         .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
                                 ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_1.png"))
                         .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_.1png")).build(),
+                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_1png")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         PASTURE_BLANKET_PATTERNED2 = REGISTRY.register("pasture_blanket_patterned2", () ->
