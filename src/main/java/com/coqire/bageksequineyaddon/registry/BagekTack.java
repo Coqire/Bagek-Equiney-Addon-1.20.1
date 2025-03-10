@@ -335,7 +335,7 @@ public class BagekTack {
                 new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
-        ENGLISH_BREAST_COLLAR_FIVEPOINT_BAGEK_BLACK = REGISTRY.register("english_breast_collar_fivepoint_bagek_black", () ->
+        ENGLISH_BREAST_COLLAR_FIVEPOINT_BAGEK_BLACK = REGISTRY.register("english_breast_collar_bagek_fivepoint_black", () ->
                 new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
@@ -355,7 +355,7 @@ public class BagekTack {
                 new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
-        ENGLISH_BREAST_COLLAR_FIVEPOINT_BAGEK_BROWN = REGISTRY.register("english_breast_collar_fivepoint_bagek_brown", () ->
+        ENGLISH_BREAST_COLLAR_FIVEPOINT_BAGEK_BROWN = REGISTRY.register("english_breast_collar_bagek_fivepoint_brown", () ->
                 new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
