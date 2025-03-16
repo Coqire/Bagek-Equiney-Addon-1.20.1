@@ -227,83 +227,103 @@ public class BagekTack {
 
         //BRIDLES
         ENGLISH_BRIDLE_BAGEK_BLACK = REGISTRY.register("english_bridle_bagek_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_C1 = REGISTRY.register("english_bridle_bagek_c1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_C2 = REGISTRY.register("english_bridle_bagek_c2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_C3 = REGISTRY.register("english_bridle_bagek_c3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_C4 = REGISTRY.register("english_bridle_bagek_c4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_DROPBAND_BLACK = REGISTRY.register("english_bridle_bagek_dropband_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_SPLITEAR_BLACK = REGISTRY.register("english_bridle_bagek_splitear_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_DOUBLEBAND_BLACK = REGISTRY.register("english_bridle_bagek_doubleband_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_LEATHER_WAR_BLACK = REGISTRY.register("english_bridle_bagek_leather_war_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_FLASH_BLACK = REGISTRY.register("english_bridle_bagek_flash_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_XC_BLACK = REGISTRY.register("english_bridle_xc_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_XC_FLUFFY_BLACK = REGISTRY.register("english_bridle_xc_fluffy_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_DROPBAND_BROWN = REGISTRY.register("english_bridle_bagek_dropband_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_SPLITEAR_BROWN = REGISTRY.register("english_bridle_bagek_splitear_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_DOUBLEBAND_BROWN = REGISTRY.register("english_bridle_bagek_doubleband_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_LEATHER_WAR_BROWN = REGISTRY.register("english_bridle_bagek_leather_war_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_BAGEK_FLASH_BROWN = REGISTRY.register("english_bridle_bagek_flash_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_XC_BROWN = REGISTRY.register("english_bridle_xc_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BRIDLE_XC_FLUFFY_BROWN = REGISTRY.register("english_bridle_xc_fluffy_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
         WESTERN_BRIDLE_BAGEK_BROWN = REGISTRY.register("western_bridle_bagek_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE).build(),
+                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
+                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "western")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
 
