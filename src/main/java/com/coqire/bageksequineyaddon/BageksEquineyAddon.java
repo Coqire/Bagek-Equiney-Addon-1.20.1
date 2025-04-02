@@ -2,6 +2,7 @@ package com.coqire.bageksequineyaddon;
 
 
 import com.coqire.bageksequineyaddon.block.ModBlocks;
+import com.coqire.bageksequineyaddon.client.ClientBootstrap;
 import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModTab;
 import com.coqire.bageksequineyaddon.item.ModItems;
 import com.coqire.bageksequineyaddon.registry.BagekTack;
@@ -57,6 +58,12 @@ public class BageksEquineyAddon
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
+
+    private void onClientSetup(FMLClientSetupEvent event)
+    {
+        event.enqueueWork(ClientBootstrap::init);
+    }
+
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
     }
