@@ -2,14 +2,12 @@ package com.coqire.bageksequineyaddon;
 
 
 import com.coqire.bageksequineyaddon.block.ModBlocks;
-import com.coqire.bageksequineyaddon.client.ClientBootstrap;
 import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModTab;
 import com.coqire.bageksequineyaddon.item.ModItems;
 import com.coqire.bageksequineyaddon.registry.BagekTack;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -20,7 +18,6 @@ import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.config.ModConfigEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -59,11 +56,6 @@ public class BageksEquineyAddon
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
-    private void onClientSetup(FMLClientSetupEvent event)
-    {
-        event.enqueueWork(ClientBootstrap::init);
-    }
-
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
     }
@@ -72,13 +64,6 @@ public class BageksEquineyAddon
     public void onServerStarting(ServerStartingEvent event){
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents{
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event){
-        }
-    }
 
     // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
     // Demonstrates how to use Forge's config APIs
