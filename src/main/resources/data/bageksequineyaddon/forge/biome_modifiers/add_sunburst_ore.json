@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "features": ["bageksequineyaddon:sunburst_ore_placed"],
-  "biomes": "#minecraft:is_overworld",
-  "step": "underground_ores"
-}
