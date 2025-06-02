@@ -1,6 +1,7 @@
 package com.coqire.bageksequineyaddon.block;
 
 import com.coqire.bageksequineyaddon.BageksEquineyAddon;
+import com.coqire.bageksequineyaddon.block.custom.WorkbenchBlock;
 import com.coqire.bageksequineyaddon.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -18,39 +19,8 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, BageksEquineyAddon.MOD_ID);
 
-    public static final RegistryObject<Block> SUNBURST_ORE = registerBlock("sunburst_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> DEEPSLATE_SUNBURST_ORE = registerBlock("deepslate_sunburst_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> SUNBURST_BLOCK = registerBlock("sunburst_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(7f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> EQUIUM_ORE = registerBlock("equium_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> DEEPSLATE_EQUIUM_ORE = registerBlock("deepslate_equium_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> EQUIUM_BLOCK = registerBlock("equium_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(7f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> CORALARITE_ORE = registerBlock("coralarite_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> DEEPSLATE_CORALARITE_ORE = registerBlock("deepslate_coralarite_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> CORALARITE_BLOCK = registerBlock("coralarite_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(7f).requiresCorrectToolForDrops()));
-
-
-
-
-
-
+    public static final RegistryObject<Block> BAGEK_WORKBENCH = registerBlock("bagek_workbench",
+            () -> new WorkbenchBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_WOOD).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

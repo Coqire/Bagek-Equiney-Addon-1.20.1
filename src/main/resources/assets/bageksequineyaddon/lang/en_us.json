@@ -1,29 +1,12 @@
 {
+
+  "block.bageksequineyaddon.bagek_workbench": "Bagek's Workbench",
+
   "item.bageksequineyaddon.baguette": "Baguette",
 
   "item.bageksequineyaddon.pink_donut_treat": "Pink Donut Treat",
   "item.bageksequineyaddon.blue_donut_treat": "Blue Donut Treat",
   "item.bageksequineyaddon.yellow_donut_treat": "Yellow Donut Treat",
-
-  "item.bageksequineyaddon.sunburst": "Sunburst",
-  "item.bageksequineyaddon.raw_sunburst": "Raw Sunburst",
-  "item.bageksequineyaddon.sunburst_shard": "Sunburst Shard",
-  "item.bageksequineyaddon.equium": "Equium",
-  "item.bageksequineyaddon.raw_equium": "Raw Equium",
-  "item.bageksequineyaddon.equium_shard": "Equium Shard",
-  "item.bageksequineyaddon.coralarite": "Coralarite",
-  "item.bageksequineyaddon.raw_coralarite": "Raw Coralarite",
-  "item.bageksequineyaddon.coralarite_shard": "Coralarite Shard",
-
-  "block.bageksequineyaddon.sunburst_ore": "Sunburst Ore",
-  "block.bageksequineyaddon.deepslate_sunburst_ore": "Deepslate Sunburst Ore",
-  "block.bageksequineyaddon.sunburst_block": "Sunburst Block",
-  "block.bageksequineyaddon.equium_ore": "Equium Ore",
-  "block.bageksequineyaddon.deepslate_equium_ore": "Deepslate Equium Ore",
-  "block.bageksequineyaddon.equium_block": "Equium Block",
-  "block.bageksequineyaddon.coralarite_ore": "Coralarite Ore",
-  "block.bageksequineyaddon.deepslate_coralarite_ore": "Deepslate Coralarite Ore",
-  "block.bageksequineyaddon.coralarite_block": "Coralarite Block",
 
   "item.bageksequineyaddon.halter_bagek_1": "Cerise Halter",
   "item.bageksequineyaddon.halter_bagek_2": "Electric Blue Halter",

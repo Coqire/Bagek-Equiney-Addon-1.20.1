@@ -35,23 +35,8 @@ public class BageksAddonCreativeModTab {
                     pOutput.accept(ModItems.PINK_DONUT_TREAT.get());
                     pOutput.accept(ModItems.YELLOW_DONUT_TREAT.get());
                     pOutput.accept(ModItems.SUNBURST.get());
-                    pOutput.accept(ModItems.SUNBURST_SHARD.get());
-                    pOutput.accept(ModItems.raw_sunburst.get());
-                    pOutput.accept(ModItems.equium.get());
-                    pOutput.accept(ModItems.equium_shard.get());
-                    pOutput.accept(ModItems.raw_equium.get());
-                    pOutput.accept(ModItems.coralarite.get());
-                    pOutput.accept(ModItems.coralarite_shard.get());
-                    pOutput.accept(ModItems.raw_coralarite.get());
-                            pOutput.accept(ModBlocks.SUNBURST_BLOCK.get());
-                            pOutput.accept(ModBlocks.SUNBURST_ORE.get());
-                            pOutput.accept(ModBlocks.DEEPSLATE_SUNBURST_ORE.get());
-                            pOutput.accept(ModBlocks.EQUIUM_BLOCK.get());
-                            pOutput.accept(ModBlocks.EQUIUM_ORE.get());
-                            pOutput.accept(ModBlocks.DEEPSLATE_EQUIUM_ORE.get());
-                            pOutput.accept(ModBlocks.CORALARITE_BLOCK.get());
-                            pOutput.accept(ModBlocks.CORALARITE_ORE.get());
-                            pOutput.accept(ModBlocks.DEEPSLATE_CORALARITE_ORE.get());
+                            pOutput.accept(ModBlocks.BAGEK_WORKBENCH.get());
+
                     
                     
 

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "bageksequineyaddon:block/bagek_workbench" },
+    "facing=east": { "model": "bageksequineyaddon:block/bagek_workbench", "y": 90 },
+    "facing=south": { "model": "bageksequineyaddon:block/bagek_workbench", "y": 180 },
+    "facing=west": { "model": "bageksequineyaddon:block/bagek_workbench", "y": 270 },
+    "facing=up": {"model": "bageksequineyaddon:block/bagek_workbench", "y": 90 },
+    "facing=down": {"model": "bageksequineyaddon:block/bagek_workbench", "y": 90 }
+  }
+}
