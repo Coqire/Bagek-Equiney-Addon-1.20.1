@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "bageksequineyaddon:raw_equium"
-  },
-  "result": "bageksequineyaddon:equium",
-  "experience": 0.7,
-  "cookingtime": 200
-}

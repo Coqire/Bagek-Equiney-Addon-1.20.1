@@ -19,23 +19,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class BagekTack {
-    // INDIVIDUAL ITEMS
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_RED;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_ORANGE;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_YELLOW;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_LIME;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_GREEN;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_LIGHT_BLUE;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_CYAN;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_BLUE;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_PURPLE;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_MAGENTA;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_PINK;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_WHITE;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_LIGHT_GRAY;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_GRAY;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_BLACK;
-    public static final RegistryObject<TackItem> HALTER_FLUFFY_BROWN;
+
     public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_DOUBLEBAND_BLACK;
     public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_DROPBAND_BLACK;
     public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_FLASH_BLACK;
@@ -51,16 +35,8 @@ public class BagekTack {
     public static final RegistryObject<TackItem> ENGLISH_BRIDLE_XC_BROWN;
     public static final RegistryObject<TackItem> ENGLISH_BRIDLE_XC_FLUFFY_BROWN;
     public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_BLACK;
-    public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_C1;
-    public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_C2;
-    public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_C3;
-    public static final RegistryObject<TackItem> ENGLISH_BRIDLE_BAGEK_C4;
     public static final RegistryObject<TackItem> WESTERN_BRIDLE_BAGEK_BROWN;
     public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_BAGEK_BLACK;
-    public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_BAGEK_C1;
-    public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_BAGEK_C2;
-    public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_BAGEK_C3;
-    public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_BAGEK_C4;
     public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_ENGLISH_BLACK;
     public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_FIVEPOINT_BAGEK_BLACK;
     public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_FREEMOTION_BLACK;
@@ -72,22 +48,11 @@ public class BagekTack {
     public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_XC_BROWN;
     public static final RegistryObject<TackItem> ENGLISH_BREAST_COLLAR_XC_FLUFFY_BROWN;
     public static final RegistryObject<TackItem> BAGEK_LUNGEGEAR;
-    //PLAID + ZEBRA RUG
-    public static final RegistryObject<TackItem> PASTURE_BLANKET_PATTERNED1;
-    public static final RegistryObject<TackItem> PASTURE_BLANKET_PATTERNED2;
-    public static final RegistryObject<TackItem> PASTURE_BLANKET_PATTERNED3;
-    public static final RegistryObject<TackItem> PASTURE_BLANKET_PATTERNED4;
-    public static final RegistryObject<TackItem> PASTURE_BLANKET_PATTERNED5;
-    public static final RegistryObject<TackItem> PASTURE_BLANKET_PATTERNED6;
-    public static final RegistryObject<TackItem> PASTURE_BLANKET_ZEBRA_BAGEK;
+
     //SADDLES
     public static final RegistryObject<TackItem> ENGLISH_SADDLE_BAGEK_BLACK;
     public static final RegistryObject<TackItem> ENGLISH_SADDLE_XC_BLACK;
     public static final RegistryObject<TackItem> ENGLISH_SADDLE_XC_BROWN;
-    public static final RegistryObject<TackItem> ENGLISH_SADDLE_BAGEK_C1;
-    public static final RegistryObject<TackItem> ENGLISH_SADDLE_BAGEK_C2;
-    public static final RegistryObject<TackItem> ENGLISH_SADDLE_BAGEK_C3;
-    public static final RegistryObject<TackItem> ENGLISH_SADDLE_BAGEK_C4;
     public static final RegistryObject<TackItem> WESTERN_SADDLE_BAGEK_BROWN;
     //GIRTH STRAPS
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_ANATOMIC_BLACK;
@@ -101,14 +66,6 @@ public class BagekTack {
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_FLUFFY_BROWN;
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_XC_BROWN;
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_XC_FLUFFY_BROWN;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_C1;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_C2;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_C3;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_C4;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_FC1;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_FC2;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_FC3;
-    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_FC4;
     public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_BAGEK_BROWN;
     //COLOUR SETS
     public static final List<RegistryObject<TackItem>> HALTER_BAGEK;
@@ -128,30 +85,10 @@ public class BagekTack {
     public static final List<RegistryObject<TackItem>> WESTERN_LEG_WRAPS_BAGEK;
     public static final List<RegistryObject<TackItem>> WESTERN_BREAST_COLLAR_BAGEK;
     public static final List<RegistryObject<TackItem>> QUARTERSHEET_BAGEK;
-    public static final List<RegistryObject<TackItem>> QUARTERSHEET_BREASTCOLLAR_BAGEK;
     public static final List<RegistryObject<TackItem>> TRAVEL_BOOTS_BAGEK;
     public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_TENDON_WOOD_BAGEK;
     public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_TENDON_WOOD_FLUFFY_BAGEK;
-    //PASTELS
-    public static final List<RegistryObject<TackItem>> HALTER_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> HALTER_FLUFFY_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> FLYMASK_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> PASTURE_BLANKET_BAGEK_FLYSHEET_PASTEL;
-    public static final List<RegistryObject<TackItem>> PASTURE_BLANKET_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> ENGLISH_SADDLE_XC_BAGEK_PASTEL;
-    public static final List<RegistryObject<TackItem>> ENGLISH_BRIDLE_XC_BAGEK_PASTEL;
-    public static final List<RegistryObject<TackItem>> ENGLISH_BLANKET_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> ENGLISH_BLANKET_ENGLISH_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_ENGLISH_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_TENDON_BAGEK_PASTEL;
-    public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK_PASTEL;
-    public static final List<RegistryObject<TackItem>> QUARTERSHEET_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> QUARTERSHEET_BREASTCOLLAR_BAGEK_PASTEL;
-    public static final List<RegistryObject<TackItem>> WESTERN_BLANKET_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> WESTERN_LEG_WRAPS_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> WESTERN_BREAST_COLLAR_PASTEL_BAGEK;
-    public static final List<RegistryObject<TackItem>> TRAVEL_BOOTS_PASTEL_BAGEK;
+
     public static DeferredRegister<Item> REGISTRY;
 
     static {
@@ -159,94 +96,8 @@ public class BagekTack {
 
         //INDIVIDUAL ITEMS
 
-        //FLUFFY MC HALTERS
-        HALTER_FLUFFY_RED = REGISTRY.register("halter_fluffy_red", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_ORANGE = REGISTRY.register("halter_fluffy_orange", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_YELLOW = REGISTRY.register("halter_fluffy_yellow", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_LIME = REGISTRY.register("halter_fluffy_lime", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_GREEN = REGISTRY.register("halter_fluffy_green", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_CYAN = REGISTRY.register("halter_fluffy_cyan", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_LIGHT_BLUE = REGISTRY.register("halter_fluffy_light_blue", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_BLUE = REGISTRY.register("halter_fluffy_blue", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_PURPLE = REGISTRY.register("halter_fluffy_purple", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_MAGENTA = REGISTRY.register("halter_fluffy_magenta", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_PINK = REGISTRY.register("halter_fluffy_pink", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_WHITE = REGISTRY.register("halter_fluffy_white", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_LIGHT_GRAY = REGISTRY.register("halter_fluffy_light_gray", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_GRAY = REGISTRY.register("halter_fluffy_gray", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_BLACK = REGISTRY.register("halter_fluffy_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        HALTER_FLUFFY_BROWN = REGISTRY.register("halter_fluffy_brown", () ->
-                new TackItem(TackItemDefinition.builder(TackType.HALTER).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-
         //BRIDLES
         ENGLISH_BRIDLE_BAGEK_BLACK = REGISTRY.register("english_bridle_bagek_black", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
-                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_BRIDLE_BAGEK_C1 = REGISTRY.register("english_bridle_bagek_c1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
-                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_BRIDLE_BAGEK_C2 = REGISTRY.register("english_bridle_bagek_c2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
-                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_BRIDLE_BAGEK_C3 = REGISTRY.register("english_bridle_bagek_c3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
-                        .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_BRIDLE_BAGEK_C4 = REGISTRY.register("english_bridle_bagek_c4", () ->
                 new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
                         .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
@@ -327,22 +178,7 @@ public class BagekTack {
                         (new Item.Properties().stacksTo(64))
                 ));
 
-        ENGLISH_BREAST_COLLAR_BAGEK_C1 = REGISTRY.register("english_breast_collar_bagek_c1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_BREAST_COLLAR_BAGEK_C2 = REGISTRY.register("english_breast_collar_bagek_c2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_BREAST_COLLAR_BAGEK_C3 = REGISTRY.register("english_breast_collar_bagek_c3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_BREAST_COLLAR_BAGEK_C4 = REGISTRY.register("english_breast_collar_bagek_c4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
+
         ENGLISH_BREAST_COLLAR_BAGEK_BLACK = REGISTRY.register("english_breast_collar_bagek_black", () ->
                 new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
                         (new Item.Properties().stacksTo(64))
@@ -392,84 +228,6 @@ public class BagekTack {
                         (new Item.Properties().stacksTo(64))
                 ));
 
-        //Plaid + zebra rug
-        PASTURE_BLANKET_ZEBRA_BAGEK = REGISTRY.register("pasture_blanket_zebra_bagek", () ->
-                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                        .withData(
-                                new PastureBlanketTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
-                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_zebra.png"))
-                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_zebra.png")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        PASTURE_BLANKET_PATTERNED1 = REGISTRY.register("pasture_blanket_patterned1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                        .withData(
-                                new PastureBlanketTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
-                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_1.png"))
-                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_1.png")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        PASTURE_BLANKET_PATTERNED2 = REGISTRY.register("pasture_blanket_patterned2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                        .withData(
-                                new PastureBlanketTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
-                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_2.png"))
-                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_2.png")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        PASTURE_BLANKET_PATTERNED3 = REGISTRY.register("pasture_blanket_patterned3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                        .withData(
-                                new PastureBlanketTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
-                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_3.png"))
-                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_3.png")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        PASTURE_BLANKET_PATTERNED4 = REGISTRY.register("pasture_blanket_patterned4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                        .withData(
-                                new PastureBlanketTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
-                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_4.png"))
-                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_4.png")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        PASTURE_BLANKET_PATTERNED5 = REGISTRY.register("pasture_blanket_patterned5", () ->
-                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                        .withData(
-                                new PastureBlanketTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
-                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_5.png"))
-                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_5.png")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        PASTURE_BLANKET_PATTERNED6 = REGISTRY.register("pasture_blanket_patterned6", () ->
-                new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                        .withData(
-                                new PastureBlanketTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE), false))
-                        .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_plaid_6.png"))
-                        .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_plaid_6.png")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
 
         //SADDLES
         ENGLISH_SADDLE_XC_BLACK = REGISTRY.register("english_saddle_xc_black", () ->
@@ -492,26 +250,7 @@ public class BagekTack {
                         .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "western")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
-        ENGLISH_SADDLE_BAGEK_C1 = REGISTRY.register("english_saddle_bagek_c1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
-                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_SADDLE_BAGEK_C2 = REGISTRY.register("english_saddle_bagek_c2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
-                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_SADDLE_BAGEK_C3 = REGISTRY.register("english_saddle_bagek_c3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
-                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_SADDLE_BAGEK_C4 = REGISTRY.register("english_saddle_bagek_c4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.SADDLE)
-                        .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
+
 
 //GIRTH STRAPS
         ENGLISH_GIRTH_STRAP_ANATOMIC_BLACK = REGISTRY.register("english_girth_strap_anatomic_black", () ->
@@ -637,86 +376,7 @@ public class BagekTack {
                         .build(),
                         (new Item.Properties().stacksTo(64))
                 ));
-        ENGLISH_GIRTH_STRAP_BAGEK_C1 = REGISTRY.register("english_girth_strap_bagek_c1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c1.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_GIRTH_STRAP_BAGEK_C2 = REGISTRY.register("english_girth_strap_bagek_c2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c2.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_GIRTH_STRAP_BAGEK_C3 = REGISTRY.register("english_girth_strap_bagek_c3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c3.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_GIRTH_STRAP_BAGEK_C4 = REGISTRY.register("english_girth_strap_bagek_c4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_c4.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_GIRTH_STRAP_BAGEK_FC1 = REGISTRY.register("english_girth_strap_bagek_fc1", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc1.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_GIRTH_STRAP_BAGEK_FC2 = REGISTRY.register("english_girth_strap_bagek_fc2", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc2.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_GIRTH_STRAP_BAGEK_FC3 = REGISTRY.register("english_girth_strap_bagek_fc3", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc3.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
-        ENGLISH_GIRTH_STRAP_BAGEK_FC4 = REGISTRY.register("english_girth_strap_bagek_fc4", () ->
-                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
-                        .rackTexture(RackType.SADDLE,
-                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_fc4.png"))
-                        .withData(
-                                new GirthStrapTypeData(false, Collections.emptySet(),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
-                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
-                        (new Item.Properties().stacksTo(64))
-                ));
+
 
 //ARRAY LISTS
 
@@ -910,229 +570,11 @@ public class BagekTack {
             ));
         }
 
-        QUARTERSHEET_BREASTCOLLAR_BAGEK = new ArrayList<>();
-        for (int var1 = 0; var1 < 19; ++var1) {
-            int counter = var1 + 1;
-            QUARTERSHEET_BREASTCOLLAR_BAGEK.add(REGISTRY.register("quartersheet_breastcollar_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
 
         WESTERN_BREAST_COLLAR_BAGEK = new ArrayList();
         for(int var1 = 0; var1 < 19; ++var1) {
             int counter = var1 + 1;
             WESTERN_BREAST_COLLAR_BAGEK.add(REGISTRY.register("western_breast_collar_bagek_" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-
-        //PASTEL COLOURS
-        HALTER_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            HALTER_PASTEL_BAGEK.add(REGISTRY.register("halter_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.HALTER).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        HALTER_FLUFFY_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            HALTER_FLUFFY_PASTEL_BAGEK.add(REGISTRY.register("halter_fluffy_bagek_p" + counter, () -> {
-                return new TackItem(TackItemDefinition.builder(TackType.HALTER).build(), (new Item.Properties())
-                        .stacksTo(64));
-            }));
-        }
-
-        FLYMASK_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            FLYMASK_PASTEL_BAGEK.add(REGISTRY.register("flymask_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.HALTER).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        PASTURE_BLANKET_BAGEK_FLYSHEET_PASTEL = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            PASTURE_BLANKET_BAGEK_FLYSHEET_PASTEL.add(REGISTRY.register("pasture_blanket_bagek_flysheet_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_flysheet_p" + counter + ".png"))
-                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_flysheet_p" + counter + ".png"))
-                            .withData(
-                                    new PastureBlanketTypeData(false, Collections.emptySet(),
-                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false)).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        PASTURE_BLANKET_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            PASTURE_BLANKET_PASTEL_BAGEK.add(REGISTRY.register("pasture_blanket_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
-                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
-                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_p" + counter + ".png"))
-                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
-                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_p" + counter + ".png"))
-                            .withData(
-                                    new PastureBlanketTypeData(false, Collections.emptySet(),
-                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false)).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        ENGLISH_SADDLE_XC_BAGEK_PASTEL = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_SADDLE_XC_BAGEK_PASTEL.add(REGISTRY.register("english_saddle_xc_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.SADDLE)
-                            .withData(new SaddleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        ENGLISH_BRIDLE_XC_BAGEK_PASTEL = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_BRIDLE_XC_BAGEK_PASTEL.add(REGISTRY.register("english_bridle_xc_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
-                            .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        ENGLISH_BLANKET_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_BLANKET_PASTEL_BAGEK.add(REGISTRY.register("english_blanket_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                            .rackTexture(RackType.SADDLE, ModRef.res
-                                    ("textures/entity/rack/saddle/xc/english_blanket_bagek_p" + counter + ".png"))
-                            .rackTexture(RackType.BLANKET_5, ModRef.res
-                                    ("textures/entity/rack/blanket_5/xc/english_blanket_bagek_p" + counter + ".png"))
-                            .withData(new TackTypeData(false, Collections.emptySet(),
-                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        ENGLISH_BLANKET_ENGLISH_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_BLANKET_ENGLISH_PASTEL_BAGEK.add(REGISTRY.register("english_blanket_english_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                            .rackTexture(RackType.SADDLE, ModRef.res
-                                    ("textures/entity/rack/saddle/english/english_blanket_english_bagek_p" + counter + ".png"))
-                            .rackTexture(RackType.BLANKET_5, ModRef.res
-                                    ("textures/entity/rack/blanket_5/english/english_blanket_english_bagek_p" + counter + ".png"))
-                            .withData(new TackTypeData(false, Collections.emptySet(),
-                                    ColorUtil.ofDyeColor(DyeColor.WHITE)))
-                            .build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        ENGLISH_LEG_WRAPS_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_LEG_WRAPS_PASTEL_BAGEK.add(REGISTRY.register("english_leg_wraps_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        ENGLISH_LEG_WRAPS_ENGLISH_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_LEG_WRAPS_ENGLISH_PASTEL_BAGEK.add(REGISTRY.register("english_leg_wraps_english_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-
-        ENGLISH_LEG_WRAPS_TENDON_BAGEK_PASTEL = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_LEG_WRAPS_TENDON_BAGEK_PASTEL.add(REGISTRY.register("english_leg_wraps_tendon_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK_PASTEL = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK_PASTEL.add(REGISTRY.register("english_leg_wraps_tendon_bagek_fp" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        TRAVEL_BOOTS_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            TRAVEL_BOOTS_PASTEL_BAGEK.add(REGISTRY.register("english_leg_wraps_travel_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        WESTERN_BLANKET_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            WESTERN_BLANKET_PASTEL_BAGEK.add(REGISTRY.register("western_blanket_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BLANKET)
-                            .rackTexture(RackType.SADDLE, ModRef.res
-                                    ("textures/entity/rack/saddle/western/western_blanket_bagek_p" + counter + ".png"))
-                            .rackTexture(RackType.BLANKET_5, ModRef.res
-                                    ("textures/entity/rack/blanket_5/western/western_blanket_bagek_p" + counter + ".png"))
-                            .withData(new TackTypeData(false, Collections.emptySet(),
-                                    ColorUtil.ofDyeColor(DyeColor.WHITE))).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        WESTERN_LEG_WRAPS_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            WESTERN_LEG_WRAPS_PASTEL_BAGEK.add(REGISTRY.register("western_leg_wraps_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-
-        WESTERN_BREAST_COLLAR_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            WESTERN_BREAST_COLLAR_PASTEL_BAGEK.add(REGISTRY.register("western_breast_collar_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        QUARTERSHEET_PASTEL_BAGEK = new ArrayList();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            QUARTERSHEET_PASTEL_BAGEK.add(REGISTRY.register("quartersheet_bagek_p" + counter, () ->
-                    new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
-                            .stacksTo(64))
-            ));
-        }
-
-        QUARTERSHEET_BREASTCOLLAR_BAGEK_PASTEL = new ArrayList<>();
-        for (int var1 = 0; var1 < 7; ++var1) {
-            int counter = var1 + 1;
-            QUARTERSHEET_BREASTCOLLAR_BAGEK_PASTEL.add(REGISTRY.register("quartersheet_breastcollar_bagek_p" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                             .stacksTo(64))
             ));

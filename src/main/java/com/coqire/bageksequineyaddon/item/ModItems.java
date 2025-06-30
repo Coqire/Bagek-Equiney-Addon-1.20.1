@@ -25,9 +25,5 @@ public class ModItems {
     public static final RegistryObject<Item> YELLOW_DONUT_TREAT = ITEMS.register("yellow_donut_treat",
             () -> new Item(new Item.Properties().food(ModFoodProperties.YELLOW_DONUT_TREAT)));
 
-    public static final RegistryObject<Item> SUNBURST = ITEMS.register("sunburst",
-            () -> new Item(new Item.Properties()));
-
-
 
 }

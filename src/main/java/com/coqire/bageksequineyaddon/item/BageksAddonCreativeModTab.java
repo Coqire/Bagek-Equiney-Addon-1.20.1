@@ -34,7 +34,6 @@ public class BageksAddonCreativeModTab {
                     pOutput.accept(ModItems.BLUE_DONUT_TREAT.get());
                     pOutput.accept(ModItems.PINK_DONUT_TREAT.get());
                     pOutput.accept(ModItems.YELLOW_DONUT_TREAT.get());
-                    pOutput.accept(ModItems.SUNBURST.get());
                             pOutput.accept(ModBlocks.BAGEK_WORKBENCH.get());
 
                     

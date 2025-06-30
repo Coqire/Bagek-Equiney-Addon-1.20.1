@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "bageksequineyaddon:raw_coralarite"
-  },
-  "result": "bageksequineyaddon:coralarite",
-  "experience": 0.7,
-  "cookingtime": 100
-}
