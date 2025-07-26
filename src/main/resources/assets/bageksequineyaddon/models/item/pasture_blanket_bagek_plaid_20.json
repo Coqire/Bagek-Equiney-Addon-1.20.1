@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/tack/pastureblanket/plaid/pasture_blanket_bagek_plaid_20"
+  }
+}

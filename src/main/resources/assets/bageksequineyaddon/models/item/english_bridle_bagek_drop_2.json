@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/tack/bridle/english_bridle_bagek_drop_2"
+  }
+}

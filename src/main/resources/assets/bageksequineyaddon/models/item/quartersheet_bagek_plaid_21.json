@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bageksequineyaddon:item/tack/quartersheet/plaid/quartersheet_bagek_plaid_21"
+  }
+}

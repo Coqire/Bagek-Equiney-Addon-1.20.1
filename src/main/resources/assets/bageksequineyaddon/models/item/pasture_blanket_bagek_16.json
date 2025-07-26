@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bageksequineyaddon:item/pasture_blanket/pasture_blanket_b16"
+    "layer0": "bageksequineyaddon:item/tack/pastureblanket/normal/pasture_blanket_bagek_16"
   }
 }
