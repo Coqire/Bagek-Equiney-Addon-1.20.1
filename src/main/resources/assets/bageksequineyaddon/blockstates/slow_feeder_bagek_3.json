@@ -1,0 +1,155 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_corner_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "false",
+        "south": "false",
+        "east": "true"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_corner_bagek_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_corner_bagek_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "true",
+        "south": "true",
+        "east": "false"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_corner_bagek_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "false|true",
+        "south": "false",
+        "east": "true|false"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "true|false",
+        "west": "false",
+        "south": "true|false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "true|false",
+        "south": "false",
+        "east": "false"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "false",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "false",
+        "west": "true",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "true",
+        "east": "false"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "false",
+        "east": "true"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "west": "true",
+        "south": "true",
+        "east": "true"
+      },
+      "apply": {
+        "model": "bageksequineyaddon:block/slow_feeder_bagek_3"
+      }
+    },
+    {
+      "when": {
+        "level": "2"
+      },
+      "apply": {
+        "model": "swem:block/full_feeder_bagek"
+      }
+    },
+    {
+      "when": {
+        "level": "1"
+      },
+      "apply": {
+        "model": "swem:block/half_feeder_bagek"
+      }
+    }
+  ]
+}

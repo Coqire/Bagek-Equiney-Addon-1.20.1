@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/slow_feeder",
+  "textures": {
+    "0": "bageksequineyaddon:block/slow_feeders/slow_feeder_bagek_9",
+    "particle": "bageksequineyaddon:block/slow_feeders/slow_feeder_bagek_9"
+  }
+}

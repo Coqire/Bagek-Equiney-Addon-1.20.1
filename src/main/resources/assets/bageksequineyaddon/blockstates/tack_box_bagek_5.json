@@ -1,0 +1,50 @@
+tack_box_bagek_5.json{
+  "forge_marker": 1,
+  "variants": {
+    "facing=north,type=single": {
+      "model": "bageksequineyaddon:block/tack_box_single_5"
+    },
+    "facing=south,type=single": {
+      "model": "bageksequineyaddon:block/tack_box_single_5",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "bageksequineyaddon:block/tack_box_single_5",
+      "y": 270
+    },
+    "facing=east,type=single": {
+      "model": "bageksequineyaddon:block/tack_box_single_5",
+      "y": 90
+    },
+    "facing=north,type=left": {
+      "model": "bageksequineyaddon:block/tack_box_left_5"
+    },
+    "facing=south,type=left": {
+      "model": "bageksequineyaddon:block/tack_box_left_5",
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "bageksequineyaddon:block/tack_box_left_5",
+      "y": 270
+    },
+    "facing=east,type=left": {
+      "model": "bageksequineyaddon:block/tack_box_left_5",
+      "y": 90
+    },
+    "facing=north,type=right": {
+      "model": "bageksequineyaddon:block/tack_box_right_5"
+    },
+    "facing=south,type=right": {
+      "model": "bageksequineyaddon:block/tack_box_right_5",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "bageksequineyaddon:block/tack_box_right_5",
+      "y": 270
+    },
+    "facing=east,type=right": {
+      "model": "bageksequineyaddon:block/tack_box_right_5",
+      "y": 90
+    }
+  }
+}
