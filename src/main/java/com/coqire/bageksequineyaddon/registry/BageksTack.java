@@ -4,11 +4,16 @@ import com.alaharranhonor.swem.forge.ModRef;
 import com.alaharranhonor.swem.forge.community.RackType;
 import com.alaharranhonor.swem.forge.community.TackType;
 import com.alaharranhonor.swem.forge.community.content.tack.type.*;
+import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
 import com.alaharranhonor.swem.forge.items.tack.*;
+import com.alaharranhonor.swem.forge.blocks.*;
 import com.alaharranhonor.swem.forge.tack.TackItemDefinition;
 import com.alaharranhonor.swem.forge.util.ColorUtil;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -17,10 +22,13 @@ import net.minecraftforge.registries.ForgeRegistries.Keys;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Properties;
 
 public class BageksTack {
 
-    //BLOCKS WIP
+    public static void init (IEventBus eventBus){
+        REGISTRY.register(eventBus);
+    }
 
     //TACK
     public static final RegistryObject<TackItem> ENGLISH_SADDLE_BAGEK_1;
@@ -720,8 +728,8 @@ public class BageksTack {
                 new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
-        
-        
+
+
         WESTERN_BRIDLE_BAGEK_1 = REGISTRY.register("western_bridle_bagek_1", () ->
                 new TackItem(TackItemDefinition.builder(TackType.BRIDLE)
                         .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "western")).build(),
@@ -764,10 +772,8 @@ public class BageksTack {
                 ));
 
 
-
-
         HALTER_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             HALTER_BAGEK.add(REGISTRY.register("halter_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.HALTER).build(), (new Item.Properties())
@@ -776,7 +782,7 @@ public class BageksTack {
         }
 
         HALTER_FLUFFY_BAGEK = new ArrayList<>();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             HALTER_FLUFFY_BAGEK.add(REGISTRY.register("halter_fluffy_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.HALTER).build(), (new Item.Properties())
@@ -785,7 +791,7 @@ public class BageksTack {
         }
 
         FLYMASK_BAGEK = new ArrayList<>();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             FLYMASK_BAGEK.add(REGISTRY.register("flymask_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.HALTER).build(), (new Item.Properties())
@@ -810,7 +816,7 @@ public class BageksTack {
         }
 
         PASTURE_BLANKET_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             PASTURE_BLANKET_BAGEK.add(REGISTRY.register("pasture_blanket_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
@@ -826,7 +832,7 @@ public class BageksTack {
         }
 
         PASTURE_BLANKET_BAGEK_PLAID = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             PASTURE_BLANKET_BAGEK.add(REGISTRY.register("pasture_blanket_bagek_plaid_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
@@ -842,7 +848,7 @@ public class BageksTack {
         }
 
         ENGLISH_BLANKET_XC_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BLANKET_XC_BAGEK.add(REGISTRY.register("english_blanket_xc_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BLANKET)
@@ -858,7 +864,7 @@ public class BageksTack {
         }
 
         ENGLISH_BLANKET_ENGLISH_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BLANKET_ENGLISH_BAGEK.add(REGISTRY.register("english_blanket_english_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BLANKET)
@@ -874,7 +880,7 @@ public class BageksTack {
         }
 
         ENGLISH_BLANKET_BAGEK_PLAID = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             ENGLISH_BLANKET_BAGEK_PLAID.add(REGISTRY.register("english_blanket_bagek_plaid_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BLANKET)
@@ -890,7 +896,7 @@ public class BageksTack {
         }
 
         WESTERN_BLANKET_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             WESTERN_BLANKET_BAGEK.add(REGISTRY.register("western_blanket_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BLANKET)
@@ -905,7 +911,7 @@ public class BageksTack {
         }
 
         WESTERN_BLANKET_BAGEK_RACING = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             WESTERN_BLANKET_BAGEK_RACING.add(REGISTRY.register("western_blanket_bagek_racing_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BLANKET)
@@ -920,7 +926,7 @@ public class BageksTack {
         }
 
         WESTERN_LEG_WRAPS_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             WESTERN_LEG_WRAPS_BAGEK.add(REGISTRY.register("western_leg_wraps_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
@@ -929,7 +935,7 @@ public class BageksTack {
         }
 
         ENGLISH_LEG_WRAPS_BAGEK_XC = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             ENGLISH_LEG_WRAPS_BAGEK_XC.add(REGISTRY.register("english_leg_wraps_bagek_xc_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
@@ -938,7 +944,7 @@ public class BageksTack {
         }
 
         ENGLISH_LEG_WRAPS_ENGLISH_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             ENGLISH_LEG_WRAPS_ENGLISH_BAGEK.add(REGISTRY.register("english_leg_wraps_english_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
@@ -965,7 +971,7 @@ public class BageksTack {
         }
 
         ENGLISH_LEG_WRAPS_TRAVEL_BAGEK = new ArrayList();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             ENGLISH_LEG_WRAPS_TRAVEL_BAGEK.add(REGISTRY.register("english_leg_wraps_travel_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
@@ -974,7 +980,7 @@ public class BageksTack {
         }
 
         QUARTERSHEET_BAGEK = new ArrayList<>();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             QUARTERSHEET_BAGEK.add(REGISTRY.register("quartersheet_bagek_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
@@ -983,17 +989,27 @@ public class BageksTack {
         }
 
         QUARTERSHEET_PLAID_BAGEK = new ArrayList<>();
-        for(int var1 = 0; var1 < 28; ++var1) {
+        for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             QUARTERSHEET_PLAID_BAGEK.add(REGISTRY.register("quartersheet_bagek_plaid_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
         }
-    }
 
-    public static void init(IEventBus eventBus) {
-        REGISTRY.register(eventBus);
-    }
+        //BLOCKS
 
-}
+
+
+
+            //   TACK_BOX_BAGEK.add(register("tack_box_" + counter, () -> {
+            //      return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
+            //  }, (block) -> {
+            //       return () -> {
+            //           return new TackBoxBlockItem((Block) block.get());
+            //       };
+            //   }));
+
+
+        }
+    }
