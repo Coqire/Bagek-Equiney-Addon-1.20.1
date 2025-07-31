@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "bageksequineyaddon:block/half_barrel_bagek_1"
+    },
+    "level=1": {
+      "model": "bageksequineyaddon:block/half_barrel_bagek_1_level1"
+    },
+    "level=2": {
+      "model": "bageksequineyaddon:block/half_barrel_bagek_1_level2"
+    },
+    "level=3": {
+      "model": "bageksequineyaddon:block/half_barrel_bagek_1_level3"
+    }
+  }
+}

@@ -4,6 +4,7 @@ package com.coqire.bageksequineyaddon;
 import com.coqire.bageksequineyaddon.block.ModBlocks;
 import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModTab;
 import com.coqire.bageksequineyaddon.item.ModItems;
+import com.coqire.bageksequineyaddon.registry.BageksBlock;
 import com.coqire.bageksequineyaddon.registry.BageksTack;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -43,6 +44,7 @@ public class BageksEquineyAddon
 
         ModItems.register(modEventBus);
         BageksTack.init(modEventBus);
+        BageksBlock.init(modEventBus);
         ModBlocks.register(modEventBus);
         BageksAddonCreativeModTab.init(modEventBus);
 
