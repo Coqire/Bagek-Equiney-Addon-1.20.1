@@ -140,7 +140,7 @@
         "level": "2"
       },
       "apply": {
-        "model": "swem:block/full_feeder_bagek"
+        "model": "swem:block/full_feeder"
       }
     },
     {
@@ -148,7 +148,7 @@
         "level": "1"
       },
       "apply": {
-        "model": "swem:block/half_feeder_bagek"
+        "model": "swem:block/half_feeder"
       }
     }
   ]
