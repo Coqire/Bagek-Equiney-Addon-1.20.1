@@ -1,0 +1,7 @@
+{
+  "parent": "swem:block/grain_feeder_corner",
+  "textures": {
+    "0": "bageksequineyaddon:block/grain_feeders/grain_feeder_corner_bagek_7",
+    "particle": "bageksequineyaddon:block/grain_feeders/grain_feeder_corner_bagek_7"
+  }
+}
