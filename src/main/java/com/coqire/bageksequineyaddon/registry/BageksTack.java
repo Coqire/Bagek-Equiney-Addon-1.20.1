@@ -137,7 +137,7 @@ public class BageksTack {
     public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_BAGEK_2;
     public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_BAGEK_3;
     public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_BAGEK_4;
-    
+
 
     //SETS
 
@@ -997,19 +997,5 @@ public class BageksTack {
             ));
         }
 
-        //BLOCKS
-
-
-
-
-            //   TACK_BOX_BAGEK.add(register("tack_box_" + counter, () -> {
-            //      return new TackBoxBlock(Properties.of().noOcclusion().sound(SoundType.WOOD).strength(2.0F, 3.0F), 1);
-            //  }, (block) -> {
-            //       return () -> {
-            //           return new TackBoxBlockItem((Block) block.get());
-            //       };
-            //   }));
-
-
-        }
     }
+}
