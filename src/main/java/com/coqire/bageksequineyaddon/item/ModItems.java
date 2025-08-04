@@ -24,6 +24,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BLUE_DONUT_TREAT)));
     public static final RegistryObject<Item> YELLOW_DONUT_TREAT = ITEMS.register("yellow_donut_treat",
             () -> new Item(new Item.Properties().food(ModFoodProperties.YELLOW_DONUT_TREAT)));
-
+    public static final RegistryObject<Item> BTACK = ITEMS.register("btack",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BBLOCK = ITEMS.register("bblock",
+            () -> new Item(new Item.Properties()));
 
 }

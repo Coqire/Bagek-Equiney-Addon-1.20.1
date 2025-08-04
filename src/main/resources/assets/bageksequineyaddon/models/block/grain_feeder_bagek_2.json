@@ -2,6 +2,7 @@
   "parent": "swem:block/grain_feeder",
   "textures": {
     "0": "bageksequineyaddon:block/grain_feeders/grain_feeder_bagek_2",
+    "feed": "bageksequineyaddon:block/sweet_feed_open",
     "particle": "bageksequineyaddon:block/grain_feeders/grain_feeder_bagek_2"
   }
 }

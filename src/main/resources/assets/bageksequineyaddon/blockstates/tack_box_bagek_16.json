@@ -1,49 +1,49 @@
-tack_box_bagek_16.json{
+{
   "forge_marker": 1,
   "variants": {
     "facing=north,type=single": {
-      "model": "bageksequineyaddon:block/tack_box_single_16"
+      "model": "bageksequineyaddon:block/tack_box_single_bagek_16"
     },
     "facing=south,type=single": {
-      "model": "bageksequineyaddon:block/tack_box_single_16",
+      "model": "bageksequineyaddon:block/tack_box_single_bagek_16",
       "y": 180
     },
     "facing=west,type=single": {
-      "model": "bageksequineyaddon:block/tack_box_single_16",
+      "model": "bageksequineyaddon:block/tack_box_single_bagek_16",
       "y": 270
     },
     "facing=east,type=single": {
-      "model": "bageksequineyaddon:block/tack_box_single_16",
+      "model": "bageksequineyaddon:block/tack_box_single_bagek_16",
       "y": 90
     },
     "facing=north,type=left": {
-      "model": "bageksequineyaddon:block/tack_box_left_16"
+      "model": "bageksequineyaddon:block/tack_box_left_bagek_16"
     },
     "facing=south,type=left": {
-      "model": "bageksequineyaddon:block/tack_box_left_16",
+      "model": "bageksequineyaddon:block/tack_box_left_bagek_16",
       "y": 180
     },
     "facing=west,type=left": {
-      "model": "bageksequineyaddon:block/tack_box_left_16",
+      "model": "bageksequineyaddon:block/tack_box_left_bagek_16",
       "y": 270
     },
     "facing=east,type=left": {
-      "model": "bageksequineyaddon:block/tack_box_left_16",
+      "model": "bageksequineyaddon:block/tack_box_left_bagek_16",
       "y": 90
     },
     "facing=north,type=right": {
-      "model": "bageksequineyaddon:block/tack_box_right_16"
+      "model": "bageksequineyaddon:block/tack_box_right_bagek_16"
     },
     "facing=south,type=right": {
-      "model": "bageksequineyaddon:block/tack_box_right_16",
+      "model": "bageksequineyaddon:block/tack_box_right_bagek_16",
       "y": 180
     },
     "facing=west,type=right": {
-      "model": "bageksequineyaddon:block/tack_box_right_16",
+      "model": "bageksequineyaddon:block/tack_box_right_bagek_16",
       "y": 270
     },
     "facing=east,type=right": {
-      "model": "bageksequineyaddon:block/tack_box_right_16",
+      "model": "bageksequineyaddon:block/tack_box_right_bagek_16",
       "y": 90
     }
   }

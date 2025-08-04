@@ -1,6 +1,6 @@
 {
   "parent": "swem:block/bin_grain_open",
   "textures": {
-    "texture": "bageksequineyaddon:block/bin_grain_bagek_17"
+    "texture": "bageksequineyaddon:block/grain_bins/bin_grain_bagek_17"
   }
 }

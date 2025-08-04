@@ -2,9 +2,9 @@
   "credit": "Made with Blockbench",
   "texture_size": [64, 64],
   "textures": {
-    "0": "bageksequineyaddon:block/half_barrels/half_barrel_bagek6_14",
+    "0": "bageksequineyaddon:block/half_barrels/half_barrel_bagek_14",
     "water": "bageksequineyaddon:block/water_still",
-    "particle": "bageksequineyaddon:block/half_barrels/half_barrel_bagek6_14"
+    "particle": "bageksequineyaddon:block/half_barrels/half_barrel_bagek_14"
   },
   "elements": [
     {
