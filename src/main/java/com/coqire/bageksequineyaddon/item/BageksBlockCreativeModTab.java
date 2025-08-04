@@ -28,7 +28,7 @@ public class BageksBlockCreativeModTab {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "bageksaddon");
         MAIN = REGISTRY.register("bblock_tab", () -> CreativeModeTab.builder()
                 .title(Component.translatable("creativetab.bblock_tab"))
-                .icon(() -> new ItemStack(ModItems.BAGUETTE.get()))
+                .icon(() -> new ItemStack(ModItems.BBLOCK.get()))
                 .displayItems((pParameters, pOutput) -> {
                     BageksBlock.BLOCKS.getEntries().forEach((registeredItem) -> {
                         Block block = registeredItem.get();

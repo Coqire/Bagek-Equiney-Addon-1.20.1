@@ -24,21 +24,21 @@ public class BageksTackCreativeModTab {
     static {
         REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "bageksaddon");
         MAIN = REGISTRY.register("btack_tab", () -> CreativeModeTab.builder()
-                .title(Component.translatable("creativetab.btack_tab")).icon(() -> new ItemStack(ModItems.BAGUETTE.get()))
+                .title(Component.translatable("creativetab.btack_tab")).
+                icon(() -> new ItemStack(ModItems.BTACK.get()))
                 .displayItems((pParameters, pOutput) ->
-
                         BageksTack.REGISTRY.getEntries().forEach((registeredItem) -> {
-                    Item item = registeredItem.get();
-                    pOutput.accept(item);
+                            Item item = registeredItem.get();
+                            pOutput.accept(item);
 
 
-                    pOutput.accept(ModItems.BAGUETTE.get());
-                    pOutput.accept(ModItems.BLUE_DONUT_TREAT.get());
-                    pOutput.accept(ModItems.PINK_DONUT_TREAT.get());
-                    pOutput.accept(ModItems.YELLOW_DONUT_TREAT.get());
+                            pOutput.accept(ModItems.BAGUETTE.get());
+                            pOutput.accept(ModItems.BLUE_DONUT_TREAT.get());
+                            pOutput.accept(ModItems.PINK_DONUT_TREAT.get());
+                            pOutput.accept(ModItems.YELLOW_DONUT_TREAT.get());
 
 
-                })).withSearchBar().build());
+                        })).withSearchBar().build());
     }
 
 }
