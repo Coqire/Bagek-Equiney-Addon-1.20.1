@@ -8,8 +8,6 @@ import com.coqire.bageksequineyaddon.item.ModItems;
 import com.coqire.bageksequineyaddon.registry.BageksBlock;
 import com.coqire.bageksequineyaddon.registry.BageksTack;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeConfigSpec;
@@ -59,7 +57,6 @@ public class BageksEquineyAddon
     private void commonSetup(final FMLCommonSetupEvent event){
         LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
 
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BAGEK_WORKBENCH.get(), RenderType.solid());
 
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
