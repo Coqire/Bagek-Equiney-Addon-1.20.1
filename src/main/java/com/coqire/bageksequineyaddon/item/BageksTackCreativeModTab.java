@@ -1,7 +1,7 @@
 package com.coqire.bageksequineyaddon.item;
 
 import com.coqire.bageksequineyaddon.block.ModBlocks;
-import com.coqire.bageksequineyaddon.registry.BageksTack;
+import com.coqire.bageksequineyaddon.registry.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
