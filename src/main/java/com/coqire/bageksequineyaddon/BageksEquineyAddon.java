@@ -57,7 +57,6 @@ public class BageksEquineyAddon
     private void commonSetup(final FMLCommonSetupEvent event){
         LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
 
-
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
@@ -70,8 +69,6 @@ public class BageksEquineyAddon
     }
 
 
-    // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
-    // Demonstrates how to use Forge's config APIs
     @Mod.EventBusSubscriber(modid = BageksEquineyAddon.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class Config
     {
