@@ -5,7 +5,7 @@
     32
   ],
   "textures": {
-    "feed": "bageksequineyaddon:block/sweet_feed_open"
+    "feed": "bageksequineyaddon:block/feed_sweet"
   },
   "elements": [
     {
