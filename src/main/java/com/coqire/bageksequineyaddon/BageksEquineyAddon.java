@@ -103,6 +103,8 @@ public class BageksEquineyAddon
             return obj instanceof final String itemName && ForgeRegistries.ITEMS.containsKey(new ResourceLocation(itemName));
         }
 
+
+
         @SubscribeEvent
         static void onLoad(final ModConfigEvent event)
         {

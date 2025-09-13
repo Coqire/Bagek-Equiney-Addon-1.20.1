@@ -1,9 +1,11 @@
 package com.coqire.bageksequineyaddon.registry;
 
+import com.alaharranhonor.swem.forge.SWEM;
 import com.alaharranhonor.swem.forge.blocks.*;
 import com.alaharranhonor.swem.forge.blocks.*;
 import com.alaharranhonor.swem.forge.items.GrainFeedItem;
 import com.alaharranhonor.swem.forge.items.TackBoxBlockItem;
+import com.alaharranhonor.swem.forge.registry.BlockEntitySetup;
 import com.coqire.bageksequineyaddon.BageksEquineyAddon;
 import com.coqire.bageksequineyaddon.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -12,7 +14,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -124,6 +129,8 @@ public class BageksBlock {
         }
 
     }
+
+
 
     public static void init(IEventBus modBus) {
         BLOCKS.register(modBus);
