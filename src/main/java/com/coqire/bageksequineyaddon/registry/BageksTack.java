@@ -94,6 +94,8 @@ public class BageksTack {
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_FLUFFY_2;
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_FLUFFY_3;
     public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_FLUFFY_4;
+    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_RACING_1;
+    public static final RegistryObject<TackItem> ENGLISH_GIRTH_STRAP_BAGEK_RACING_2;
 
     public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_BAGEK_1;
     public static final RegistryObject<TackItem> WESTERN_GIRTH_STRAP_BAGEK_2;
@@ -631,6 +633,28 @@ public class BageksTack {
                                         ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
+
+        ENGLISH_GIRTH_STRAP_BAGEK_RACING_1 = REGISTRY.register("english_girth_strap_bagek_racing_1", () ->
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_racing_1.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+        ENGLISH_GIRTH_STRAP_BAGEK_RACING_2 = REGISTRY.register("english_girth_strap_bagek_racing_2", () ->
+                new TackItem(TackItemDefinition.builder(TackType.GIRTH_STRAP)
+                        .rackTexture(RackType.SADDLE,
+                                ModRef.res("textures/entity/rack/saddle/girth/english_girth_strap_bagek_racing_2.png"))
+                        .withData(
+                                new GirthStrapTypeData(false, Collections.emptySet(),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE),
+                                        ColorUtil.ofDyeColor(DyeColor.WHITE))).build(),
+                        (new Item.Properties().stacksTo(64))
+                ));
+
 
         ENGLISH_BREAST_COLLAR_BAGEK_1 = REGISTRY.register("english_breast_collar_bagek_1", () ->
                 new TackItem(TackItemDefinition.builder(TackType.BREAST_COLLAR).build(),
