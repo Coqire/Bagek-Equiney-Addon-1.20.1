@@ -36,6 +36,34 @@ public class BageksTackCreativeModTab {
                             pOutput.accept(ModItems.BLUE_DONUT_TREAT.get());
                             pOutput.accept(ModItems.PINK_DONUT_TREAT.get());
                             pOutput.accept(ModItems.YELLOW_DONUT_TREAT.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_1.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_2.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_3.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_4.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_5.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_6.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_7.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_8.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_9.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_10.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_11.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_12.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_13.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_14.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_15.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_16.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_17.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_18.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_19.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_20.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_21.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_22.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_23.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_24.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_25.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_26.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_27.get());
+                            pOutput.accept(ModItems.BAGEK_DYE_28.get());
 
 
                         })).withSearchBar().build());
