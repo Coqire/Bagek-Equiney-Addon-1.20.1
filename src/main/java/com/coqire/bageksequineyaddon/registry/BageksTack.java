@@ -140,6 +140,10 @@ public class BageksTack {
     public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_BAGEK_3;
     public static final RegistryObject<TackItem> WESTERN_BREAST_COLLAR_BAGEK_4;
 
+    public static final RegistryObject<TackItem> ENGLISH_LEG_WRAPS_HORSESHOE_BAGEK_1;
+    public static final RegistryObject<TackItem> ENGLISH_LEG_WRAPS_HORSESHOE_BAGEK_2;
+    public static final RegistryObject<TackItem> ENGLISH_LEG_WRAPS_HORSESHOE_BAGEK_3;
+
 
     //SETS
 
@@ -152,6 +156,7 @@ public class BageksTack {
     public static final List<RegistryObject<TackItem>> PASTURE_BLANKET_BAGEK_FLYSHEET;
     public static final List<RegistryObject<TackItem>> PASTURE_BLANKET_BAGEK;
     public static final List<RegistryObject<TackItem>> PASTURE_BLANKET_BAGEK_PLAID;
+    public static final List<RegistryObject<TackItem>> PASTURE_BLANKET_BAGEK_RAINSHEET;
     public static final List<RegistryObject<TackItem>> ENGLISH_BLANKET_XC_BAGEK;
     public static final List<RegistryObject<TackItem>> ENGLISH_BLANKET_ENGLISH_BAGEK;
     public static final List<RegistryObject<TackItem>> ENGLISH_BLANKET_BAGEK_PLAID;
@@ -163,6 +168,7 @@ public class BageksTack {
     public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_TENDON_BAGEK;
     public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_TENDON_FLUFFY_BAGEK;
     public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_TRAVEL_BAGEK;
+    public static final List<RegistryObject<TackItem>> ENGLISH_LEG_WRAPS_BAGEK_EARBONNET;
     public static final List<RegistryObject<TackItem>> QUARTERSHEET_BAGEK;
     public static final List<RegistryObject<TackItem>> QUARTERSHEET_PLAID_BAGEK;
 
@@ -371,6 +377,16 @@ public class BageksTack {
                         .withData(new BridleTypeData(true, Collections.emptySet(), ColorUtil.ofDyeColor(DyeColor.WHITE), "english")).build(),
                         (new Item.Properties().stacksTo(64))
                 ));
+
+        ENGLISH_LEG_WRAPS_HORSESHOE_BAGEK_1 = REGISTRY.register("english_leg_wraps_horseshoe_bagek_1", () ->
+                new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS)
+                        .build(),(new Item.Properties().stacksTo(64))));
+        ENGLISH_LEG_WRAPS_HORSESHOE_BAGEK_2 = REGISTRY.register("english_leg_wraps_horseshoe_bagek_2", () ->
+                new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS)
+                        .build(),(new Item.Properties().stacksTo(64))));
+        ENGLISH_LEG_WRAPS_HORSESHOE_BAGEK_3 = REGISTRY.register("english_leg_wraps_horseshoe_bagek_3", () ->
+                new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS)
+                        .build(),(new Item.Properties().stacksTo(64))));
 
         ENGLISH_BRIDLE_RACING_BAGEK = new ArrayList();
         for (int var1 = 0; var1 < 28; ++var1) {
@@ -855,6 +871,22 @@ public class BageksTack {
             ));
         }
 
+        PASTURE_BLANKET_BAGEK_RAINSHEET = new ArrayList();
+        for (int var1 = 0; var1 < 28; ++var1) {
+            int counter = var1 + 1;
+            PASTURE_BLANKET_BAGEK_RAINSHEET.add(REGISTRY.register("pasture_blanket_bagek_rainsheet_" + counter, () ->
+                    new TackItem(TackItemDefinition.builder(TackType.PASTURE_BLANKET)
+                            .rackTexture(RackType.PASTURE_BLANKET_SHORT_3,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_3_short_bagek_rainsheet_" + counter + ".png"))
+                            .rackTexture(RackType.PASTURE_BLANKET_LONG_5,
+                                    ModRef.res("textures/entity/rack/pasture_blanket/rack_pasture_blanket_5_long_bagek_rainsheet_" + counter + ".png"))
+                            .withData(
+                                    new PastureBlanketTypeData(false, Collections.emptySet(),
+                                            ColorUtil.ofDyeColor(DyeColor.WHITE), false)).build(), (new Item.Properties())
+                            .stacksTo(64))
+            ));
+        }
+
         PASTURE_BLANKET_BAGEK_PLAID = new ArrayList();
         for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
@@ -998,6 +1030,15 @@ public class BageksTack {
         for (int var1 = 0; var1 < 28; ++var1) {
             int counter = var1 + 1;
             ENGLISH_LEG_WRAPS_TRAVEL_BAGEK.add(REGISTRY.register("english_leg_wraps_travel_bagek_" + counter, () ->
+                    new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
+                            .stacksTo(64))
+            ));
+        }
+
+        ENGLISH_LEG_WRAPS_BAGEK_EARBONNET = new ArrayList();
+        for (int var1 = 0; var1 < 28; ++var1) {
+            int counter = var1 + 1;
+            ENGLISH_LEG_WRAPS_BAGEK_EARBONNET.add(REGISTRY.register("english_leg_wraps_bagek_earbonnet_" + counter, () ->
                     new TackItem(TackItemDefinition.builder(TackType.LEG_WRAPS).build(), (new Item.Properties())
                             .stacksTo(64))
             ));
