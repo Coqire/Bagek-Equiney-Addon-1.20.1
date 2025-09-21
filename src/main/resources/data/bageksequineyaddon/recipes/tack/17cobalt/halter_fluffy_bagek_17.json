@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 17,
+  "ingredient": {
+    "item": "bageksequineyaddon:bagek_dye_17"
+  },
+  "result": "bageksequineyaddon:halter_fluffy_bagek_17"
+}

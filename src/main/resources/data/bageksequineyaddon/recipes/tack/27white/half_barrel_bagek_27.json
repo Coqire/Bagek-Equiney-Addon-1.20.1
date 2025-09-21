@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 27,
+  "ingredient": {
+    "item": "bageksequineyaddon:bagek_dye_27"
+  },
+  "result": "bageksequineyaddon:half_barrel_bagek_27"
+}

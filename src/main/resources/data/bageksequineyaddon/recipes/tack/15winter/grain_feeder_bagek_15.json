@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 15,
+  "ingredient": {
+    "item": "bageksequineyaddon:bagek_dye_15"
+  },
+  "result": "bageksequineyaddon:grain_feeder_bagek_15"
+}

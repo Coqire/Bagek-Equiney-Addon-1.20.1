@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 9,
+  "ingredient": {
+    "item": "bageksequineyaddon:bagek_dye_9"
+  },
+  "result": "bageksequineyaddon:english_blanket_xc_bagek_9"
+}

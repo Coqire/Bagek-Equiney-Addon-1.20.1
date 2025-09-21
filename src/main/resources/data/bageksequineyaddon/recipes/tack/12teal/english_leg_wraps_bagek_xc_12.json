@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 12,
+  "ingredient": {
+    "item": "bageksequineyaddon:bagek_dye_12"
+  },
+  "result": "bageksequineyaddon:english_leg_wraps_bagek_xc_12"
+}
