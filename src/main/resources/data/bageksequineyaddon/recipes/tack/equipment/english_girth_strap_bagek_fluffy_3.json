@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "swem:english_girth_strap_black"
+  },
+  "result": "bageksequineyaddon:english_girth_strap_bagek_fluffy_3"
+}

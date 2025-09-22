@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "swem:english_saddle_black"
+  },
+  "result": "bageksequineyaddon:english_saddle_bagek_1"
+}

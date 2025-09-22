@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "swem:english_bridle_black"
+  },
+  "result": "bageksequineyaddon:english_bridle_bagek_xc_fluffy_1"
+}

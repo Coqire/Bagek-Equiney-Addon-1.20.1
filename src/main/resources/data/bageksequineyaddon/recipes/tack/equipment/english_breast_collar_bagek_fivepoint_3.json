@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "swem:english_breast_collar_black"
+  },
+  "result": "bageksequineyaddon:english_breast_collar_bagek_fivepoint_3"
+}

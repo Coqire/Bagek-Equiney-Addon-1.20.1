@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "swem:western_breast_collar_white"
+  },
+  "result": "bageksequineyaddon:western_breast_collar_bagek_1"
+}

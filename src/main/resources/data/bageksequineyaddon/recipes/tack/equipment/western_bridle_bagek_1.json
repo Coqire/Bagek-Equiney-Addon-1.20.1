@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "swem:western_bridle_white"
+  },
+  "result": "bageksequineyaddon:western_bridle_bagek_1"
+}
