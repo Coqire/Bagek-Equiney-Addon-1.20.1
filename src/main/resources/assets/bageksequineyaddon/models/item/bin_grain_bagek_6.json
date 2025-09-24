@@ -1,6 +1,6 @@
 {
   "parent": "bageksequineyaddon:item/bin_grain",
   "textures": {
-    "texture": "bageksequineyaddon:block/grain_bins/bin_grain_bagek_6"
+    "texture": "bageksequineyaddon:block/bin_grain_bagek_6"
   }
 }
