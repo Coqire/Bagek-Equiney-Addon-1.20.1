@@ -57,3 +57,9 @@ Besides the new tack and blocks the Equiney addon will have side mods/packs like
 ⌲ Leih ; [Ko-Fi](https://ko-fi.com/ieospixelponies)  
 ⌲ Andreja ; [Ko-Fi](https://ko-fi.com/andreslivery)  
 ⌲ Bagek ; [Ko-Fi](https://ko-fi.com/coqire)
+
+
+
+
+
+<3
