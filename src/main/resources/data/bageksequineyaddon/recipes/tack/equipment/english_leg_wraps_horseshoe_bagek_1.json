@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A B",
+    "   ",
+    "C D"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "bageksequineyaddon:english_leg_wraps_horseshoe_bagek_1"
+  }
+}
